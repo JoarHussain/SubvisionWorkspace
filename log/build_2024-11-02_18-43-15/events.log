@@ -1,0 +1,625 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (ds4_driver_msgs) JobQueued: {'identifier': 'ds4_driver_msgs', 'dependencies': OrderedDict()}
+[0.000424] (ds4drv) JobQueued: {'identifier': 'ds4drv', 'dependencies': OrderedDict()}
+[0.000464] (subvision) JobQueued: {'identifier': 'subvision', 'dependencies': OrderedDict()}
+[0.000497] (ds4_driver) JobQueued: {'identifier': 'ds4_driver', 'dependencies': OrderedDict([('ds4_driver_msgs', '/home/joar/subvision_ws/install/ds4_driver_msgs')])}
+[0.000960] (ds4_driver_msgs) JobStarted: {'identifier': 'ds4_driver_msgs'}
+[0.006042] (ds4drv) JobStarted: {'identifier': 'ds4drv'}
+[0.008900] (subvision) JobStarted: {'identifier': 'subvision'}
+[0.014525] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'cmake'}
+[0.014782] (ds4_driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/joar/subvision_ws/src/ds4_driver/ds4_driver_msgs', '-DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/install/ds4_driver_msgs'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver_msgs'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[0.099807] (-) TimerEvent: {}
+[0.200240] (-) TimerEvent: {}
+[0.260552] (ds4_driver_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.260724] (ds4_driver_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270915] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300407] (-) TimerEvent: {}
+[0.352050] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.358440] (ds4_driver_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.358901] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359633] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.362908] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400507] (-) TimerEvent: {}
+[0.453312] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.459960] (ds4_driver_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.460166] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.460594] (ds4_driver_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.465425] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500670] (-) TimerEvent: {}
+[0.532649] (ds4drv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ds4drv', 'build', '--build-base', '/home/joar/subvision_ws/build/ds4drv/build', 'install', '--record', '/home/joar/subvision_ws/build/ds4drv/install.log', '--single-version-externally-managed'], 'cwd': '/home/joar/subvision_ws/src/ds4drv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'joar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/joar', 'OLDPWD': '/home/joar/subvision_ws/ds4drv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1615', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/joar/subvision_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'joar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7QLHW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.545', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joar/subvision_ws/install/subvision:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joar/subvision_ws/build/ds4drv', 'LC_ALL': 'en_CA.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joar/subvision_ws/build/ds4drv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600809] (-) TimerEvent: {}
+[0.613772] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700958] (-) TimerEvent: {}
+[0.714222] (ds4drv) StdoutLine: {'line': b'running egg_info\n'}
+[0.714595] (ds4drv) StdoutLine: {'line': b'creating ../../build/ds4drv/ds4drv.egg-info\n'}
+[0.714847] (ds4drv) StdoutLine: {'line': b'writing ../../build/ds4drv/ds4drv.egg-info/PKG-INFO\n'}
+[0.715057] (ds4drv) StdoutLine: {'line': b'writing dependency_links to ../../build/ds4drv/ds4drv.egg-info/dependency_links.txt\n'}
+[0.715181] (ds4drv) StdoutLine: {'line': b'writing entry points to ../../build/ds4drv/ds4drv.egg-info/entry_points.txt\n'}
+[0.715316] (ds4drv) StdoutLine: {'line': b'writing requirements to ../../build/ds4drv/ds4drv.egg-info/requires.txt\n'}
+[0.715437] (ds4drv) StdoutLine: {'line': b'writing top-level names to ../../build/ds4drv/ds4drv.egg-info/top_level.txt\n'}
+[0.715541] (ds4drv) StdoutLine: {'line': b"writing manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'\n"}
+[0.717237] (ds4drv) StdoutLine: {'line': b"reading manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'\n"}
+[0.717474] (ds4drv) StdoutLine: {'line': b"reading manifest template 'MANIFEST.in'\n"}
+[0.717610] (ds4drv) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.718183] (ds4drv) StdoutLine: {'line': b"writing manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'\n"}
+[0.718320] (ds4drv) StdoutLine: {'line': b'running build\n'}
+[0.718369] (ds4drv) StdoutLine: {'line': b'running build_py\n'}
+[0.718480] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build\n'}
+[0.718593] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build/lib\n'}
+[0.718643] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.718740] (ds4drv) StdoutLine: {'line': b'copying ds4drv/daemon.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.718795] (ds4drv) StdoutLine: {'line': b'copying ds4drv/exceptions.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.718886] (ds4drv) StdoutLine: {'line': b'copying ds4drv/__init__.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.718971] (ds4drv) StdoutLine: {'line': b'copying ds4drv/config.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719067] (ds4drv) StdoutLine: {'line': b'copying ds4drv/logger.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719114] (ds4drv) StdoutLine: {'line': b'copying ds4drv/action.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719217] (ds4drv) StdoutLine: {'line': b'copying ds4drv/backend.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719283] (ds4drv) StdoutLine: {'line': b'copying ds4drv/__main__.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719348] (ds4drv) StdoutLine: {'line': b'copying ds4drv/uinput.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719436] (ds4drv) StdoutLine: {'line': b'copying ds4drv/eventloop.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719500] (ds4drv) StdoutLine: {'line': b'copying ds4drv/utils.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719580] (ds4drv) StdoutLine: {'line': b'copying ds4drv/device.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv\n'}
+[0.719788] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.719854] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/status.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.719958] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/__init__.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720052] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/led.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720131] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/binding.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720245] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/battery.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720337] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/dump.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720419] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/btsignal.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720521] (ds4drv) StdoutLine: {'line': b'copying ds4drv/actions/input.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions\n'}
+[0.720690] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends\n'}
+[0.720777] (ds4drv) StdoutLine: {'line': b'copying ds4drv/backends/__init__.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends\n'}
+[0.720862] (ds4drv) StdoutLine: {'line': b'copying ds4drv/backends/hidraw.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends\n'}
+[0.720933] (ds4drv) StdoutLine: {'line': b'copying ds4drv/backends/bluetooth.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends\n'}
+[0.721061] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/packages\n'}
+[0.721130] (ds4drv) StdoutLine: {'line': b'copying ds4drv/packages/__init__.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/packages\n'}
+[0.721195] (ds4drv) StdoutLine: {'line': b'copying ds4drv/packages/timerfd.py -> /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/packages\n'}
+[0.721736] (ds4drv) StdoutLine: {'line': b'running install\n'}
+[0.722044] (ds4drv) StdoutLine: {'line': b'running install_lib\n'}
+[0.722711] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.722906] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/daemon.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.722984] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723151] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/status.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723248] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/__init__.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723331] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/led.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723389] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/binding.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723474] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/battery.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723521] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/dump.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723568] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/btsignal.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723672] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/actions/input.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions\n'}
+[0.723723] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/exceptions.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.723813] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/__init__.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.723860] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/config.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.723931] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/logger.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.723978] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/action.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724046] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backend.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724108] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/__main__.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724190] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/uinput.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724281] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/eventloop.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724399] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/utils.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724503] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages\n'}
+[0.724590] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/packages/__init__.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages\n'}
+[0.724655] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/packages/timerfd.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages\n'}
+[0.724734] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/device.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv\n'}
+[0.724842] (ds4drv) StdoutLine: {'line': b'creating /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends\n'}
+[0.724914] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends/__init__.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends\n'}
+[0.724978] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends/hidraw.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends\n'}
+[0.725059] (ds4drv) StdoutLine: {'line': b'copying /home/joar/subvision_ws/build/ds4drv/build/lib/ds4drv/backends/bluetooth.py -> /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends\n'}
+[0.725580] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/daemon.py to daemon.cpython-310.pyc\n'}
+[0.726267] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/status.py to status.cpython-310.pyc\n'}
+[0.726385] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.726724] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/__init__.py to __init__.cpython-310.pyc\n'}
+[0.726893] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/led.py to led.cpython-310.pyc\n'}
+[0.727156] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/binding.py to binding.cpython-310.pyc\n'}
+[0.728120] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/battery.py to battery.cpython-310.pyc\n'}
+[0.728421] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/dump.py to dump.cpython-310.pyc\n'}
+[0.728777] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/btsignal.py to btsignal.cpython-310.pyc\n'}
+[0.729171] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/actions/input.py to input.cpython-310.pyc\n'}
+[0.729929] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/exceptions.py to exceptions.cpython-310.pyc\n'}
+[0.730098] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/__init__.py to __init__.cpython-310.pyc\n'}
+[0.730228] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/config.py to config.cpython-310.pyc\n'}
+[0.731930] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/logger.py to logger.cpython-310.pyc\n'}
+[0.732439] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/action.py to action.cpython-310.pyc\n'}
+[0.733075] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backend.py to backend.cpython-310.pyc\n'}
+[0.733304] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/__main__.py to __main__.cpython-310.pyc\n'}
+[0.734323] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/uinput.py to uinput.cpython-310.pyc\n'}
+[0.736431] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/eventloop.py to eventloop.cpython-310.pyc\n'}
+[0.737030] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/utils.py to utils.cpython-310.pyc\n'}
+[0.737387] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages/__init__.py to __init__.cpython-310.pyc\n'}
+[0.737560] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/packages/timerfd.py to timerfd.cpython-310.pyc\n'}
+[0.738296] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/device.py to device.cpython-310.pyc\n'}
+[0.739244] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/__init__.py to __init__.cpython-310.pyc\n'}
+[0.739461] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/hidraw.py to hidraw.cpython-310.pyc\n'}
+[0.740290] (ds4drv) StdoutLine: {'line': b'byte-compiling /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv/backends/bluetooth.py to bluetooth.cpython-310.pyc\n'}
+[0.740978] (ds4drv) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.742529] (ds4drv) StdoutLine: {'line': b'Copying ../../build/ds4drv/ds4drv.egg-info to /home/joar/subvision_ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info\n'}
+[0.743192] (ds4drv) StdoutLine: {'line': b'running install_scripts\n'}
+[0.746150] (subvision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/subvision', 'build', '--build-base', '/home/joar/subvision_ws/build/subvision/build', 'install', '--record', '/home/joar/subvision_ws/build/subvision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/joar/subvision_ws/src/subvision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'joar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/joar', 'OLDPWD': '/home/joar/subvision_ws/ds4drv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1615', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/joar/subvision_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'joar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7QLHW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.545', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joar/subvision_ws/install/subvision:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joar/subvision_ws/build/subvision', 'LC_ALL': 'en_CA.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joar/subvision_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.761513] (ds4drv) StdoutLine: {'line': b'Installing ds4drv script to /home/joar/subvision_ws/install/ds4drv/bin\n'}
+[0.762242] (ds4drv) StdoutLine: {'line': b"writing list of installed files to '/home/joar/subvision_ws/build/ds4drv/install.log'\n"}
+[0.776233] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.783808] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.794754] (ds4drv) CommandEnded: {'returncode': 0}
+[0.797924] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801186] (-) TimerEvent: {}
+[0.805124] (ds4drv) JobEnded: {'identifier': 'ds4drv', 'rc': 0}
+[0.813737] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.831608] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.847878] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.862126] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.896261] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.902062] (-) TimerEvent: {}
+[0.924730] (subvision) StdoutLine: {'line': b'running egg_info\n'}
+[0.925227] (subvision) StdoutLine: {'line': b'writing ../../build/subvision/subvision.egg-info/PKG-INFO\n'}
+[0.925465] (subvision) StdoutLine: {'line': b'writing dependency_links to ../../build/subvision/subvision.egg-info/dependency_links.txt\n'}
+[0.925610] (subvision) StdoutLine: {'line': b'writing entry points to ../../build/subvision/subvision.egg-info/entry_points.txt\n'}
+[0.925740] (subvision) StdoutLine: {'line': b'writing requirements to ../../build/subvision/subvision.egg-info/requires.txt\n'}
+[0.925795] (subvision) StdoutLine: {'line': b'writing top-level names to ../../build/subvision/subvision.egg-info/top_level.txt\n'}
+[0.927440] (subvision) StdoutLine: {'line': b"reading manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'\n"}
+[0.928048] (subvision) StdoutLine: {'line': b"writing manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'\n"}
+[0.928263] (subvision) StdoutLine: {'line': b'running build\n'}
+[0.928346] (subvision) StdoutLine: {'line': b'running build_py\n'}
+[0.928487] (subvision) StdoutLine: {'line': b'running install\n'}
+[0.928691] (subvision) StdoutLine: {'line': b'running install_lib\n'}
+[0.929748] (subvision) StdoutLine: {'line': b'running install_data\n'}
+[0.929879] (subvision) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.932806] (subvision) StdoutLine: {'line': b"removing '/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.933121] (subvision) StdoutLine: {'line': b'Copying ../../build/subvision/subvision.egg-info to /home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info\n'}
+[0.933964] (subvision) StdoutLine: {'line': b'running install_scripts\n'}
+[0.951780] (subvision) StdoutLine: {'line': b'Installing read_controller script to /home/joar/subvision_ws/install/subvision/lib/subvision\n'}
+[0.952098] (subvision) StdoutLine: {'line': b"writing list of installed files to '/home/joar/subvision_ws/build/subvision/install.log'\n"}
+[0.981882] (subvision) CommandEnded: {'returncode': 0}
+[0.987477] (subvision) JobEnded: {'identifier': 'subvision', 'rc': 0}
+[1.002180] (-) TimerEvent: {}
+[1.102473] (-) TimerEvent: {}
+[1.189295] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.202622] (-) TimerEvent: {}
+[1.302979] (-) TimerEvent: {}
+[1.403328] (-) TimerEvent: {}
+[1.503737] (-) TimerEvent: {}
+[1.604153] (-) TimerEvent: {}
+[1.618349] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.704313] (-) TimerEvent: {}
+[1.781649] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801989] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.803531] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.804443] (-) TimerEvent: {}
+[1.826877] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.827041] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.827093] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.827139] (ds4_driver_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.847579] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.904597] (-) TimerEvent: {}
+[1.913131] (ds4_driver_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.936129] (ds4_driver_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.937358] (ds4_driver_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.940274] (ds4_driver_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.977870] (ds4_driver_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.980839] (ds4_driver_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/joar/subvision_ws/build/ds4_driver_msgs\n'}
+[1.990174] (ds4_driver_msgs) CommandEnded: {'returncode': 0}
+[1.992328] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'build'}
+[1.992356] (ds4_driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joar/subvision_ws/build/ds4_driver_msgs', '--', '-j16', '-l16'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver_msgs'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[2.004749] (-) TimerEvent: {}
+[2.037959] (ds4_driver_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.051582] (ds4_driver_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.057669] (ds4_driver_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_ds4_driver_msgs\n'}
+[2.104874] (-) TimerEvent: {}
+[2.205159] (-) TimerEvent: {}
+[2.248188] (ds4_driver_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.248811] (ds4_driver_msgs) StdoutLine: {'line': b'creating ds4_driver_msgs.egg-info\n'}
+[2.249107] (ds4_driver_msgs) StdoutLine: {'line': b'writing ds4_driver_msgs.egg-info/PKG-INFO\n'}
+[2.249194] (ds4_driver_msgs) StdoutLine: {'line': b'writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt\n'}
+[2.249305] (ds4_driver_msgs) StdoutLine: {'line': b'writing top-level names to ds4_driver_msgs.egg-info/top_level.txt\n'}
+[2.249485] (ds4_driver_msgs) StdoutLine: {'line': b"writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'\n"}
+[2.251117] (ds4_driver_msgs) StdoutLine: {'line': b"reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'\n"}
+[2.251521] (ds4_driver_msgs) StdoutLine: {'line': b"writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'\n"}
+[2.283176] (ds4_driver_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_ds4_driver_msgs_egg\n'}
+[2.305309] (-) TimerEvent: {}
+[2.405842] (-) TimerEvent: {}
+[2.506213] (-) TimerEvent: {}
+[2.606577] (-) TimerEvent: {}
+[2.695130] (ds4_driver_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/feedback__functions.c.o\x1b[0m\n'}
+[2.695460] (ds4_driver_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/status__functions.c.o\x1b[0m\n'}
+[2.695548] (ds4_driver_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/trackpad__functions.c.o\x1b[0m\n'}
+[2.696334] (ds4_driver_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/report__functions.c.o\x1b[0m\n'}
+[2.706731] (-) TimerEvent: {}
+[2.712550] (ds4_driver_msgs) StdoutLine: {'line': b'[ 10%] Built target ds4_driver_msgs__cpp\n'}
+[2.724098] (ds4_driver_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.724299] (ds4_driver_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.724368] (ds4_driver_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.757081] (ds4_driver_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libds4_driver_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.806863] (-) TimerEvent: {}
+[2.807127] (ds4_driver_msgs) StdoutLine: {'line': b'[ 18%] Built target ds4_driver_msgs__rosidl_generator_c\n'}
+[2.817912] (ds4_driver_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.819115] (ds4_driver_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.819351] (ds4_driver_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.906995] (-) TimerEvent: {}
+[3.007301] (-) TimerEvent: {}
+[3.107704] (-) TimerEvent: {}
+[3.208091] (-) TimerEvent: {}
+[3.307726] (ds4_driver_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/feedback__type_support.cpp.o\x1b[0m\n'}
+[3.307968] (ds4_driver_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[3.308059] (ds4_driver_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/report__type_support.cpp.o\x1b[0m\n'}
+[3.308143] (-) TimerEvent: {}
+[3.311588] (ds4_driver_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/trackpad__type_support.cpp.o\x1b[0m\n'}
+[3.347693] (ds4_driver_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/feedback__type_support.cpp.o\x1b[0m\n'}
+[3.348100] (ds4_driver_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/report__type_support.cpp.o\x1b[0m\n'}
+[3.348255] (ds4_driver_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[3.348813] (ds4_driver_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp.o\x1b[0m\n'}
+[3.408348] (-) TimerEvent: {}
+[3.436684] (ds4_driver_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o\x1b[0m\n'}
+[3.438874] (ds4_driver_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[3.439889] (ds4_driver_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/report__type_support.cpp.o\x1b[0m\n'}
+[3.444982] (ds4_driver_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/trackpad__type_support.cpp.o\x1b[0m\n'}
+[3.469332] (ds4_driver_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/feedback__type_support.cpp.o\x1b[0m\n'}
+[3.469653] (ds4_driver_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[3.508697] (-) TimerEvent: {}
+[3.525917] (ds4_driver_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/report__type_support.cpp.o\x1b[0m\n'}
+[3.526264] (ds4_driver_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/trackpad__type_support.cpp.o\x1b[0m\n'}
+[3.582165] (ds4_driver_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.610511] (-) TimerEvent: {}
+[3.651083] (ds4_driver_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/feedback__type_support.c.o\x1b[0m\n'}
+[3.666973] (ds4_driver_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[3.667319] (ds4_driver_msgs) StdoutLine: {'line': b'[ 58%] Built target ds4_driver_msgs__rosidl_typesupport_c\n'}
+[3.687615] (ds4_driver_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/report__type_support.c.o\x1b[0m\n'}
+[3.703528] (ds4_driver_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/feedback__type_support_c.cpp.o\x1b[0m\n'}
+[3.708063] (ds4_driver_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[3.710175] (ds4_driver_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/trackpad__type_support.c.o\x1b[0m\n'}
+[3.710539] (-) TimerEvent: {}
+[3.713358] (ds4_driver_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/report__type_support_c.cpp.o\x1b[0m\n'}
+[3.732258] (ds4_driver_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/trackpad__type_support_c.cpp.o\x1b[0m\n'}
+[3.735968] (ds4_driver_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.762919] (ds4_driver_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libds4_driver_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.810730] (-) TimerEvent: {}
+[3.815072] (ds4_driver_msgs) StdoutLine: {'line': b'[ 72%] Built target ds4_driver_msgs__rosidl_typesupport_cpp\n'}
+[3.827287] (ds4_driver_msgs) StdoutLine: {'line': b'[ 72%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c\n'}
+[3.910910] (-) TimerEvent: {}
+[3.945144] (ds4_driver_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.011086] (-) TimerEvent: {}
+[4.040757] (ds4_driver_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.089577] (ds4_driver_msgs) StdoutLine: {'line': b'[ 76%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.111236] (-) TimerEvent: {}
+[4.136927] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.154924] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.211342] (-) TimerEvent: {}
+[4.236900] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.259100] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] Built target ds4_driver_msgs\n'}
+[4.280253] (ds4_driver_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.311486] (-) TimerEvent: {}
+[4.411859] (-) TimerEvent: {}
+[4.512275] (-) TimerEvent: {}
+[4.612709] (-) TimerEvent: {}
+[4.713020] (-) TimerEvent: {}
+[4.813332] (-) TimerEvent: {}
+[4.913688] (-) TimerEvent: {}
+[5.014020] (-) TimerEvent: {}
+[5.114316] (-) TimerEvent: {}
+[5.215176] (-) TimerEvent: {}
+[5.315546] (-) TimerEvent: {}
+[5.411426] (ds4_driver_msgs) StdoutLine: {'line': b'[ 80%] Built target ds4_driver_msgs__py\n'}
+[5.415687] (-) TimerEvent: {}
+[5.432608] (ds4_driver_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_feedback_s.c.o\x1b[0m\n'}
+[5.432855] (ds4_driver_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_trackpad_s.c.o\x1b[0m\n'}
+[5.432969] (ds4_driver_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_status_s.c.o\x1b[0m\n'}
+[5.433066] (ds4_driver_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_report_s.c.o\x1b[0m\n'}
+[5.515811] (-) TimerEvent: {}
+[5.553042] (ds4_driver_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.599688] (ds4_driver_msgs) StdoutLine: {'line': b'[ 89%] Built target ds4_driver_msgs__rosidl_generator_py\n'}
+[5.615964] (-) TimerEvent: {}
+[5.620055] (ds4_driver_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.620306] (ds4_driver_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.620499] (ds4_driver_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.716083] (-) TimerEvent: {}
+[5.722086] (ds4_driver_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.722333] (ds4_driver_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.722890] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.765813] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.765994] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.766065] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext\n'}
+[5.779793] (ds4_driver_msgs) CommandEnded: {'returncode': 0}
+[5.816209] (-) TimerEvent: {}
+[5.890834] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'install'}
+[5.900979] (ds4_driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joar/subvision_ws/build/ds4_driver_msgs'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver_msgs'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[5.908402] (ds4_driver_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.908890] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ament_index/resource_index/rosidl_interfaces/ds4_driver_msgs\n'}
+[5.909105] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.909267] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.909565] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.909717] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.h\n'}
+[5.909860] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.h\n'}
+[5.909968] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.h\n'}
+[5.910030] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.h\n'}
+[5.910084] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.c\n'}
+[5.910129] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.h\n'}
+[5.910174] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.h\n'}
+[5.910242] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.h\n'}
+[5.910286] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.h\n'}
+[5.910345] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.h\n'}
+[5.910398] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.c\n'}
+[5.910489] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.h\n'}
+[5.910535] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.c\n'}
+[5.910587] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.c\n'}
+[5.910737] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.h\n'}
+[5.910800] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.h\n'}
+[5.910845] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.h\n'}
+[5.910903] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.911041] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.h\n'}
+[5.911132] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.h\n'}
+[5.911251] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.h\n'}
+[5.911629] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.sh\n'}
+[5.911762] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.dsv\n'}
+[5.912008] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so\n'}
+[5.912334] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so" to ""\n'}
+[5.912431] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.912550] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.912623] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.912671] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.912720] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[5.912792] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[5.912858] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_c.h\n'}
+[5.912930] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_c.h\n'}
+[5.913068] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.913410] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.913551] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.913618] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.913683] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.913729] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__traits.hpp\n'}
+[5.913773] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__builder.hpp\n'}
+[5.913869] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__traits.hpp\n'}
+[5.913965] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__builder.hpp\n'}
+[5.914033] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.hpp\n'}
+[5.914153] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.hpp\n'}
+[5.914284] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__builder.hpp\n'}
+[5.914438] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.hpp\n'}
+[5.914568] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__traits.hpp\n'}
+[5.914690] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.hpp\n'}
+[5.914803] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__traits.hpp\n'}
+[5.914932] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__builder.hpp\n'}
+[5.915044] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.hpp\n'}
+[5.915159] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.hpp\n'}
+[5.915255] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.hpp\n'}
+[5.915366] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.hpp\n'}
+[5.915520] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.915632] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.915700] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.915750] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.915857] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.915925] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.915989] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/dds_fastrtps\n'}
+[5.916065] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.916168] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.916215] (-) TimerEvent: {}
+[5.916357] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.916749] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.916802] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.916852] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.916948] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.917004] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[5.917048] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h\n'}
+[5.917142] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.c\n'}
+[5.917233] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_c.h\n'}
+[5.917335] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.c\n'}
+[5.917447] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_c.h\n'}
+[5.917587] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.c\n'}
+[5.917727] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.c\n'}
+[5.917878] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.917998] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.918322] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.918430] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so\n'}
+[5.918664] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.918796] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[5.918897] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[5.918944] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[5.918989] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.919044] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.919089] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.cpp\n'}
+[5.919159] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.cpp\n'}
+[5.919322] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.919466] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp\n'}
+[5.919588] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.cpp\n'}
+[5.919714] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.919866] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.920207] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.920280] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so\n'}
+[5.920567] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.920669] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.sh\n'}
+[5.920778] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.dsv\n'}
+[5.920861] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info\n'}
+[5.921015] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.921115] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.921224] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.921383] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.921521] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs\n'}
+[5.921599] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.921735] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py\n'}
+[5.921836] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.921964] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.922067] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.922181] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so\n'}
+[5.922386] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.922500] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.922623] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg\n'}
+[5.922702] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status_s.c\n'}
+[5.922886] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py\n'}
+[5.923004] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback_s.c\n'}
+[5.923126] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py\n'}
+[5.923249] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad_s.c\n'}
+[5.923363] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report_s.c\n'}
+[5.923536] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py\n'}
+[5.923680] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py\n'}
+[5.923818] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py\n'}
+[5.958797] (ds4_driver_msgs) StdoutLine: {'line': b"Listing '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs'...\n"}
+[5.959037] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py'...\n"}
+[5.959143] (ds4_driver_msgs) StdoutLine: {'line': b"Listing '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg'...\n"}
+[5.959265] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py'...\n"}
+[5.959360] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py'...\n"}
+[5.959495] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py'...\n"}
+[5.959591] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py'...\n"}
+[5.959684] (ds4_driver_msgs) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py'...\n"}
+[5.963811] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.964466] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.964856] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.965554] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.965933] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.966403] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.966546] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so\n'}
+[5.966806] (ds4_driver_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/joar/subvision_ws/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so" to ""\n'}
+[5.966902] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.idl\n'}
+[5.967046] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.idl\n'}
+[5.967385] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.idl\n'}
+[5.967540] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.idl\n'}
+[5.967643] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.msg\n'}
+[5.967775] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.msg\n'}
+[5.967877] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.msg\n'}
+[5.968004] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.msg\n'}
+[5.968091] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ament_index/resource_index/package_run_dependencies/ds4_driver_msgs\n'}
+[5.968166] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ament_index/resource_index/parent_prefix_path/ds4_driver_msgs\n'}
+[5.968321] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.sh\n'}
+[5.968486] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.dsv\n'}
+[5.968598] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.sh\n'}
+[5.968724] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.dsv\n'}
+[5.968853] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.bash\n'}
+[5.968981] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.sh\n'}
+[5.969119] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.zsh\n'}
+[5.969241] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.dsv\n'}
+[5.969405] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv\n'}
+[5.969575] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ament_index/resource_index/packages/ds4_driver_msgs\n'}
+[5.969762] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport.cmake\n'}
+[5.969909] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.970052] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.970195] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.970341] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.970498] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.970642] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.970775] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.970917] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.971061] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.971202] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.971333] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.971505] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.971644] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.971775] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.971915] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.972055] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.972170] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.972299] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.972443] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.972573] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.972705] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.972858] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.972986] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.973117] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig.cmake\n'}
+[5.973216] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig-version.cmake\n'}
+[5.973342] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/package.xml\n'}
+[5.976041] (ds4_driver_msgs) CommandEnded: {'returncode': 0}
+[6.016348] (-) TimerEvent: {}
+[6.095093] (ds4_driver_msgs) JobEnded: {'identifier': 'ds4_driver_msgs', 'rc': 0}
+[6.096087] (ds4_driver) JobStarted: {'identifier': 'ds4_driver'}
+[6.103663] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'cmake'}
+[6.104309] (ds4_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/joar/subvision_ws/src/ds4_driver/ds4_driver', '-DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/install/ds4_driver'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[6.116464] (-) TimerEvent: {}
+[6.164652] (ds4_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.216593] (-) TimerEvent: {}
+[6.217921] (ds4_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.224308] (ds4_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.296024] (ds4_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.301999] (ds4_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.302395] (ds4_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.302783] (ds4_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.304843] (ds4_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.316764] (-) TimerEvent: {}
+[6.390174] (ds4_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.396405] (ds4_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.396705] (ds4_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.396978] (ds4_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.398889] (ds4_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.416897] (-) TimerEvent: {}
+[6.517281] (-) TimerEvent: {}
+[6.535301] (ds4_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.611196] (ds4_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.617427] (-) TimerEvent: {}
+[6.639249] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.643861] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.650485] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.660571] (ds4_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.673739] (ds4_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.717578] (-) TimerEvent: {}
+[6.721190] (ds4_driver) StdoutLine: {'line': b'-- Found ds4_driver_msgs: 0.0.0 (/home/joar/subvision_ws/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake)\n'}
+[6.736163] (ds4_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.817729] (-) TimerEvent: {}
+[6.866828] (ds4_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.869856] (ds4_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.870468] (ds4_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.870981] (ds4_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.872359] (ds4_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.873592] (ds4_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.878387] (ds4_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[6.879534] (ds4_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/joar/subvision_ws/build/ds4_driver\n'}
+[6.886264] (ds4_driver) CommandEnded: {'returncode': 0}
+[6.887029] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'build'}
+[6.888022] (ds4_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joar/subvision_ws/build/ds4_driver', '--', '-j16', '-l16'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[6.917907] (-) TimerEvent: {}
+[6.950578] (ds4_driver) StdoutLine: {'line': b'Built target ament_cmake_python_copy_ds4_driver\n'}
+[7.018045] (-) TimerEvent: {}
+[7.118436] (-) TimerEvent: {}
+[7.135521] (ds4_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.135971] (ds4_driver) StdoutLine: {'line': b'creating ds4_driver.egg-info\n'}
+[7.136250] (ds4_driver) StdoutLine: {'line': b'writing ds4_driver.egg-info/PKG-INFO\n'}
+[7.136415] (ds4_driver) StdoutLine: {'line': b'writing dependency_links to ds4_driver.egg-info/dependency_links.txt\n'}
+[7.136640] (ds4_driver) StdoutLine: {'line': b'writing top-level names to ds4_driver.egg-info/top_level.txt\n'}
+[7.136740] (ds4_driver) StdoutLine: {'line': b"writing manifest file 'ds4_driver.egg-info/SOURCES.txt'\n"}
+[7.138362] (ds4_driver) StdoutLine: {'line': b"reading manifest file 'ds4_driver.egg-info/SOURCES.txt'\n"}
+[7.138895] (ds4_driver) StdoutLine: {'line': b"writing manifest file 'ds4_driver.egg-info/SOURCES.txt'\n"}
+[7.171415] (ds4_driver) StdoutLine: {'line': b'Built target ament_cmake_python_build_ds4_driver_egg\n'}
+[7.183562] (ds4_driver) CommandEnded: {'returncode': 0}
+[7.206876] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'install'}
+[7.208154] (ds4_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joar/subvision_ws/build/ds4_driver'], 'cwd': '/home/joar/subvision_ws/build/ds4_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joar'), ('OLDPWD', '/home/joar/subvision_ws/ds4drv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1615'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joar/subvision_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rogue:@/tmp/.ICE-unix/1587,unix/rogue:/tmp/.ICE-unix/1587'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85ee3922_6e57_4752_b1d7_20d4be0277e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7QLHW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.545'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joar/subvision_ws/build/ds4_driver'), ('LC_ALL', 'en_CA.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joar/subvision_ws/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/home/joar/subvision_ws/install/subvision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble')]), 'shell': False}
+[7.215962] (ds4_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.216297] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/pythonpath.sh\n'}
+[7.216542] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/pythonpath.dsv\n'}
+[7.216650] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info\n'}
+[7.216751] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/top_level.txt\n'}
+[7.216883] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.216979] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/PKG-INFO\n'}
+[7.217077] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.217207] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver\n'}
+[7.217321] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py\n'}
+[7.217431] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py\n'}
+[7.217492] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py\n'}
+[7.217566] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py\n'}
+[7.218511] (-) TimerEvent: {}
+[7.245592] (ds4_driver) StdoutLine: {'line': b"Listing '/home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver'...\n"}
+[7.245851] (ds4_driver) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py'...\n"}
+[7.245957] (ds4_driver) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py'...\n"}
+[7.246086] (ds4_driver) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py'...\n"}
+[7.246179] (ds4_driver) StdoutLine: {'line': b"Compiling '/home/joar/subvision_ws/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py'...\n"}
+[7.250895] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//config\n'}
+[7.251106] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//config/twist_6dof.yaml\n'}
+[7.251309] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//config/params.yaml\n'}
+[7.251612] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//config/twist_2dof.yaml\n'}
+[7.251899] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//launch\n'}
+[7.252063] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//launch/ds4_twist.launch.xml\n'}
+[7.252304] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//launch/ds4_driver.launch.xml\n'}
+[7.252555] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver//launch/demo.launch.xml\n'}
+[7.252861] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/lib/ds4_driver/demo.py\n'}
+[7.252995] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py\n'}
+[7.253131] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py\n'}
+[7.253330] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ament_index/resource_index/package_run_dependencies/ds4_driver\n'}
+[7.253546] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ament_index/resource_index/parent_prefix_path/ds4_driver\n'}
+[7.253668] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.sh\n'}
+[7.253794] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.dsv\n'}
+[7.253921] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/path.sh\n'}
+[7.254049] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/environment/path.dsv\n'}
+[7.254161] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/local_setup.bash\n'}
+[7.254288] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/local_setup.sh\n'}
+[7.254427] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/local_setup.zsh\n'}
+[7.254574] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/local_setup.dsv\n'}
+[7.254699] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/package.dsv\n'}
+[7.254874] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ament_index/resource_index/packages/ds4_driver\n'}
+[7.255054] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake\n'}
+[7.255152] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake\n'}
+[7.255274] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/joar/subvision_ws/install/ds4_driver/share/ds4_driver/package.xml\n'}
+[7.257844] (ds4_driver) CommandEnded: {'returncode': 0}
+[7.295574] (ds4_driver) JobEnded: {'identifier': 'ds4_driver', 'rc': 0}
+[7.296116] (-) EventReactorShutdown: {}

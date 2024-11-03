@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/joar/subvision_ws/src/build/ds4_driver': AMENT_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joar/subvision_ws/src/build/ds4_driver -- -j16 -l16
+[0.083s] Built target ament_cmake_python_copy_ds4_driver
+[0.308s] running egg_info
+[0.309s] writing ds4_driver.egg-info/PKG-INFO
+[0.309s] writing dependency_links to ds4_driver.egg-info/dependency_links.txt
+[0.309s] writing top-level names to ds4_driver.egg-info/top_level.txt
+[0.311s] reading manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[0.312s] writing manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[0.355s] Built target ament_cmake_python_build_ds4_driver_egg
+[0.369s] Invoked command in '/home/joar/subvision_ws/src/build/ds4_driver' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joar/subvision_ws/src/build/ds4_driver -- -j16 -l16
+[0.401s] Invoking command in '/home/joar/subvision_ws/src/build/ds4_driver': AMENT_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joar/subvision_ws/src/build/ds4_driver
+[0.409s] -- Install configuration: ""
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/pythonpath.sh
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/pythonpath.dsv
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info
+[0.409s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/top_level.txt
+[0.409s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/SOURCES.txt
+[0.409s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/PKG-INFO
+[0.409s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/dependency_links.txt
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py
+[0.409s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py
+[0.410s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py
+[0.410s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py
+[0.438s] Listing '/home/joar/subvision_ws/src/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver'...
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//config
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//config/twist_6dof.yaml
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//config/params.yaml
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//config/twist_2dof.yaml
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//launch
+[0.444s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//launch/ds4_twist.launch.xml
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//launch/ds4_driver.launch.xml
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver//launch/demo.launch.xml
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/lib/ds4_driver/demo.py
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ament_index/resource_index/package_run_dependencies/ds4_driver
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ament_index/resource_index/parent_prefix_path/ds4_driver
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.dsv
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/path.sh
+[0.445s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/environment/path.dsv
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/local_setup.bash
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/local_setup.sh
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/local_setup.zsh
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/local_setup.dsv
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/package.dsv
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ament_index/resource_index/packages/ds4_driver
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+[0.446s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver/share/ds4_driver/package.xml
+[0.448s] Invoked command in '/home/joar/subvision_ws/src/build/ds4_driver' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joar/subvision_ws/src/build/ds4_driver

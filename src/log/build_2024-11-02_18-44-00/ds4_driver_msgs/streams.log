@@ -1,0 +1,314 @@
+[0.016s] Invoking command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake /home/joar/subvision_ws/src/ds4_driver/ds4_driver_msgs -DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/src/install/ds4_driver_msgs
+[0.219s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.541s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.568s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.616s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.626s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.653s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.954s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.559s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.582s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.582s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.582s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.583s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.601s] -- Found PythonExtra: .so  
+[1.665s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.679s] -- Added test 'lint_cmake' to check CMake code style
+[1.680s] -- Added test 'xmllint' to check XML markup files
+[1.682s] -- Configuring done
+[1.720s] -- Generating done
+[1.723s] -- Build files have been written to: /home/joar/subvision_ws/src/build/ds4_driver_msgs
+[1.736s] Invoked command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake /home/joar/subvision_ws/src/ds4_driver/ds4_driver_msgs -DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/src/install/ds4_driver_msgs
+[1.738s] Invoking command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake --build /home/joar/subvision_ws/src/build/ds4_driver_msgs -- -j16 -l16
+[1.781s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.790s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.798s] [  3%] Built target ament_cmake_python_copy_ds4_driver_msgs
+[1.987s] running egg_info
+[1.987s] creating ds4_driver_msgs.egg-info
+[1.987s] writing ds4_driver_msgs.egg-info/PKG-INFO
+[1.988s] writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt
+[1.988s] writing top-level names to ds4_driver_msgs.egg-info/top_level.txt
+[1.988s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.989s] reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.990s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[2.021s] [  3%] Built target ament_cmake_python_build_ds4_driver_msgs_egg
+[2.440s] [  3%] Built target ds4_driver_msgs__cpp
+[2.441s] [  7%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/feedback__functions.c.o[0m
+[2.442s] [  7%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/report__functions.c.o[0m
+[2.443s] [  9%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/status__functions.c.o[0m
+[2.443s] [ 10%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_c.dir/rosidl_generator_c/ds4_driver_msgs/msg/detail/trackpad__functions.c.o[0m
+[2.452s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.452s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.452s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.497s] [ 18%] [32m[1mLinking C shared library libds4_driver_msgs__rosidl_generator_c.so[0m
+[2.540s] [ 18%] Built target ds4_driver_msgs__rosidl_generator_c
+[2.551s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.551s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.553s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.046s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[3.047s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[3.047s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[3.047s] [ 30%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/report__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/status__type_support.cpp.o[0m
+[3.173s] [ 40%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[3.174s] [ 41%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[3.175s] [ 43%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/trackpad__type_support.cpp.o[0m
+[3.177s] [ 45%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/report__type_support.cpp.o[0m
+[3.191s] [ 47%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[3.191s] [ 49%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[3.243s] [ 50%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[3.260s] [ 52%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[3.312s] [ 54%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_c.so[0m
+[3.341s] [ 56%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/feedback__type_support.c.o[0m
+[3.341s] [ 58%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/status__type_support.c.o[0m
+[3.401s] [ 58%] Built target ds4_driver_msgs__rosidl_typesupport_c
+[3.412s] [ 60%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/report__type_support.c.o[0m
+[3.421s] [ 61%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ds4_driver_msgs/msg/detail/trackpad__type_support.c.o[0m
+[3.457s] [ 67%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[3.457s] [ 67%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[3.457s] [ 67%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/report__type_support_c.cpp.o[0m
+[3.457s] [ 69%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/trackpad__type_support_c.cpp.o[0m
+[3.460s] [ 70%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_cpp.so[0m
+[3.479s] [ 72%] [32m[1mLinking C shared library libds4_driver_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.530s] [ 72%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[3.536s] [ 72%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c
+[3.682s] [ 74%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.771s] [ 76%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.804s] [ 76%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp
+[3.878s] [ 78%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.887s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp
+[3.977s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c
+[4.000s] [ 78%] Built target ds4_driver_msgs
+[4.022s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.138s] [ 80%] Built target ds4_driver_msgs__py
+[5.162s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_trackpad_s.c.o[0m
+[5.162s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_feedback_s.c.o[0m
+[5.162s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_status_s.c.o[0m
+[5.162s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_report_s.c.o[0m
+[5.279s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so[0m
+[5.326s] [ 89%] Built target ds4_driver_msgs__rosidl_generator_py
+[5.348s] [ 92%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.348s] [ 92%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.348s] [ 94%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.448s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.448s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.449s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.492s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.492s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext
+[5.492s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext
+[5.507s] Invoked command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake --build /home/joar/subvision_ws/src/build/ds4_driver_msgs -- -j16 -l16
+[5.663s] Invoking command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake --install /home/joar/subvision_ws/src/build/ds4_driver_msgs
+[5.671s] -- Install configuration: ""
+[5.672s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ament_index/resource_index/rosidl_interfaces/ds4_driver_msgs
+[5.672s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.672s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.c
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.h
+[5.673s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.c
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.c
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.c
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.h
+[5.674s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.h
+[5.675s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.sh
+[5.675s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.dsv
+[5.675s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so
+[5.675s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so" to ""
+[5.675s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.675s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.676s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_c.h
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_c.h
+[5.676s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so
+[5.676s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.677s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.677s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.677s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__traits.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__builder.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__traits.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__builder.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__builder.hpp
+[5.677s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__traits.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__traits.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__builder.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.hpp
+[5.678s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.hpp
+[5.679s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.679s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.679s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_cpp.hpp
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_cpp.hpp
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/dds_fastrtps
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.679s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.680s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.680s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.680s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.680s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.680s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.c
+[5.680s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_c.h
+[5.680s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.c
+[5.681s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_c.h
+[5.681s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.c
+[5.681s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.c
+[5.681s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.681s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so
+[5.682s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.682s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so
+[5.682s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so" to ""
+[5.682s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[5.682s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[5.682s] -- Up-to-date: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[5.682s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[5.682s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_cpp.hpp
+[5.682s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.cpp
+[5.682s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.cpp
+[5.683s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp
+[5.683s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp
+[5.683s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.cpp
+[5.683s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[5.683s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so
+[5.683s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so
+[5.684s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so" to ""
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.sh
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.dsv
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.684s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.685s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status_s.c
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback_s.c
+[5.686s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py
+[5.687s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad_s.c
+[5.687s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report_s.c
+[5.687s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py
+[5.687s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py
+[5.687s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py
+[5.721s] Listing '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs'...
+[5.721s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py'...
+[5.721s] Listing '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg'...
+[5.721s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py'...
+[5.722s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py'...
+[5.722s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py'...
+[5.722s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py'...
+[5.722s] Compiling '/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py'...
+[5.726s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.727s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.727s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.728s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.728s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.728s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.728s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so
+[5.729s] -- Set runtime path of "/home/joar/subvision_ws/src/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so" to ""
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.idl
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.idl
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.idl
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.idl
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.msg
+[5.729s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.msg
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.msg
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.msg
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ament_index/resource_index/package_run_dependencies/ds4_driver_msgs
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ament_index/resource_index/parent_prefix_path/ds4_driver_msgs
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.sh
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.dsv
+[5.730s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.sh
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.dsv
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.bash
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.sh
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.zsh
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.dsv
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv
+[5.731s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ament_index/resource_index/packages/ds4_driver_msgs
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cppExport.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.732s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.733s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake-extras.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.734s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig-version.cmake
+[5.735s] -- Installing: /home/joar/subvision_ws/src/install/ds4_driver_msgs/share/ds4_driver_msgs/package.xml
+[5.738s] Invoked command in '/home/joar/subvision_ws/src/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/subvision:/opt/ros/humble /usr/bin/cmake --install /home/joar/subvision_ws/src/build/ds4_driver_msgs

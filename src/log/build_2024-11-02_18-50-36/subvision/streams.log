@@ -1,0 +1,21 @@
+[0.830s] Invoking command in '/home/joar/subvision_ws/src/subvision': PYTHONPATH=/home/joar/subvision_ws/src/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/src/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/subvision build --build-base /home/joar/subvision_ws/src/build/subvision/build install --record /home/joar/subvision_ws/src/build/subvision/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.052s] writing ../build/subvision/subvision.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../build/subvision/subvision.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../build/subvision/subvision.egg-info/entry_points.txt
+[1.052s] writing requirements to ../build/subvision/subvision.egg-info/requires.txt
+[1.052s] writing top-level names to ../build/subvision/subvision.egg-info/top_level.txt
+[1.055s] reading manifest file '../build/subvision/subvision.egg-info/SOURCES.txt'
+[1.055s] writing manifest file '../build/subvision/subvision.egg-info/SOURCES.txt'
+[1.056s] running build
+[1.056s] running build_py
+[1.056s] running install
+[1.056s] running install_lib
+[1.058s] running install_data
+[1.058s] running install_egg_info
+[1.060s] removing '/home/joar/subvision_ws/src/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info' (and everything under it)
+[1.060s] Copying ../build/subvision/subvision.egg-info to /home/joar/subvision_ws/src/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info
+[1.061s] running install_scripts
+[1.082s] Installing read_controller script to /home/joar/subvision_ws/src/install/subvision/lib/subvision
+[1.082s] writing list of installed files to '/home/joar/subvision_ws/src/build/subvision/install.log'
+[1.127s] Invoked command in '/home/joar/subvision_ws/src/subvision' returned '0': PYTHONPATH=/home/joar/subvision_ws/src/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/src/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/subvision build --build-base /home/joar/subvision_ws/src/build/subvision/build install --record /home/joar/subvision_ws/src/build/subvision/install.log --single-version-externally-managed install_data

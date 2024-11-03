@@ -1,0 +1,22 @@
+[0.550s] Invoking command in '/home/joar/subvision_ws/src/ds4drv': PYTHONPATH=/home/joar/subvision_ws/src/build/ds4drv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/src/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ds4drv build --build-base /home/joar/subvision_ws/src/build/ds4drv/build install --record /home/joar/subvision_ws/src/build/ds4drv/install.log --single-version-externally-managed
+[0.767s] running egg_info
+[0.767s] writing ../build/ds4drv/ds4drv.egg-info/PKG-INFO
+[0.768s] writing dependency_links to ../build/ds4drv/ds4drv.egg-info/dependency_links.txt
+[0.768s] writing entry points to ../build/ds4drv/ds4drv.egg-info/entry_points.txt
+[0.768s] writing requirements to ../build/ds4drv/ds4drv.egg-info/requires.txt
+[0.768s] writing top-level names to ../build/ds4drv/ds4drv.egg-info/top_level.txt
+[0.771s] reading manifest file '../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[0.771s] reading manifest template 'MANIFEST.in'
+[0.771s] adding license file 'LICENSE'
+[0.772s] writing manifest file '../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.775s] running install
+[0.775s] running install_lib
+[0.778s] running install_egg_info
+[0.780s] removing '/home/joar/subvision_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info' (and everything under it)
+[0.780s] Copying ../build/ds4drv/ds4drv.egg-info to /home/joar/subvision_ws/src/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info
+[0.781s] running install_scripts
+[0.805s] Installing ds4drv script to /home/joar/subvision_ws/src/install/ds4drv/bin
+[0.806s] writing list of installed files to '/home/joar/subvision_ws/src/build/ds4drv/install.log'
+[0.861s] Invoked command in '/home/joar/subvision_ws/src/ds4drv' returned '0': PYTHONPATH=/home/joar/subvision_ws/src/build/ds4drv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/src/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ds4drv build --build-base /home/joar/subvision_ws/src/build/ds4drv/build install --record /home/joar/subvision_ws/src/build/ds4drv/install.log --single-version-externally-managed
