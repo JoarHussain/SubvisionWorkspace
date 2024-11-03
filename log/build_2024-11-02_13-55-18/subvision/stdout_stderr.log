@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/subvision/subvision.egg-info
+writing ../../build/subvision/subvision.egg-info/PKG-INFO
+writing dependency_links to ../../build/subvision/subvision.egg-info/dependency_links.txt
+writing entry points to ../../build/subvision/subvision.egg-info/entry_points.txt
+writing requirements to ../../build/subvision/subvision.egg-info/requires.txt
+writing top-level names to ../../build/subvision/subvision.egg-info/top_level.txt
+writing manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'
+reading manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'
+writing manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joar/ros2_ws/build/subvision/build
+creating /home/joar/ros2_ws/build/subvision/build/lib
+creating /home/joar/ros2_ws/build/subvision/build/lib/subvision
+copying subvision/__init__.py -> /home/joar/ros2_ws/build/subvision/build/lib/subvision
+running install
+running install_lib
+creating /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision
+copying /home/joar/ros2_ws/build/subvision/build/lib/subvision/__init__.py -> /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision
+byte-compiling /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/joar/ros2_ws/install/subvision/share/ament_index
+creating /home/joar/ros2_ws/install/subvision/share/ament_index/resource_index
+creating /home/joar/ros2_ws/install/subvision/share/ament_index/resource_index/packages
+copying resource/subvision -> /home/joar/ros2_ws/install/subvision/share/ament_index/resource_index/packages
+copying package.xml -> /home/joar/ros2_ws/install/subvision/share/subvision
+running install_egg_info
+Copying ../../build/subvision/subvision.egg-info to /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/joar/ros2_ws/build/subvision/install.log'

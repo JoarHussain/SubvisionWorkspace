@@ -1,0 +1,34 @@
+[0.558s] Invoking command in '/home/joar/ros2_ws/build/subvision': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/joar/ros2_ws/build/subvision/build
+[0.768s] running develop
+[0.768s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.768s]   warnings.warn(
+[0.887s] Removing /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision.egg-link (link to .)
+[0.956s] Invoked command in '/home/joar/ros2_ws/build/subvision' returned '0': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/joar/ros2_ws/build/subvision/build
+[0.958s] Invoking command in '/home/joar/ros2_ws/src/subvision': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subvision build --build-base /home/joar/ros2_ws/build/subvision/build install --record /home/joar/ros2_ws/build/subvision/install.log --single-version-externally-managed install_data --force
+[1.147s] running egg_info
+[1.147s] writing ../../build/subvision/subvision.egg-info/PKG-INFO
+[1.147s] writing dependency_links to ../../build/subvision/subvision.egg-info/dependency_links.txt
+[1.148s] writing entry points to ../../build/subvision/subvision.egg-info/entry_points.txt
+[1.148s] writing requirements to ../../build/subvision/subvision.egg-info/requires.txt
+[1.148s] writing top-level names to ../../build/subvision/subvision.egg-info/top_level.txt
+[1.150s] reading manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'
+[1.150s] writing manifest file '../../build/subvision/subvision.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.150s] copying subvision/read_controller.py -> /home/joar/ros2_ws/build/subvision/build/lib/subvision
+[1.151s] running install
+[1.151s] running install_lib
+[1.152s] creating /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision
+[1.152s] copying /home/joar/ros2_ws/build/subvision/build/lib/subvision/__init__.py -> /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision
+[1.152s] copying /home/joar/ros2_ws/build/subvision/build/lib/subvision/read_controller.py -> /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision
+[1.153s] byte-compiling /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision/__init__.py to __init__.cpython-310.pyc
+[1.153s] byte-compiling /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision/read_controller.py to read_controller.cpython-310.pyc
+[1.153s] running install_data
+[1.154s] copying resource/subvision -> /home/joar/ros2_ws/install/subvision/share/ament_index/resource_index/packages
+[1.154s] copying package.xml -> /home/joar/ros2_ws/install/subvision/share/subvision
+[1.154s] running install_egg_info
+[1.156s] Copying ../../build/subvision/subvision.egg-info to /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision-0.0.0-py3.10.egg-info
+[1.157s] running install_scripts
+[1.179s] Installing read_controller script to /home/joar/ros2_ws/install/subvision/lib/subvision
+[1.179s] writing list of installed files to '/home/joar/ros2_ws/build/subvision/install.log'
+[1.233s] Invoked command in '/home/joar/ros2_ws/src/subvision' returned '0': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subvision build --build-base /home/joar/ros2_ws/build/subvision/build install --record /home/joar/ros2_ws/build/subvision/install.log --single-version-externally-managed install_data --force

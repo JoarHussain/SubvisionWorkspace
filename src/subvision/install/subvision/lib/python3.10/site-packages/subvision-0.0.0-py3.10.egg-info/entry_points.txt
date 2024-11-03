@@ -1,0 +1,3 @@
+[console_scripts]
+runROV = subvision.read_controller:main
+
