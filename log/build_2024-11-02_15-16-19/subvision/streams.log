@@ -1,0 +1,21 @@
+[0.553s] Invoking command in '/home/joar/ros2_ws/build/subvision': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/joar/ros2_ws/build/subvision/build --no-deps symlink_data --force
+[0.766s] running develop
+[0.768s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.768s]   warnings.warn(
+[0.879s] running egg_info
+[0.879s] writing subvision.egg-info/PKG-INFO
+[0.879s] writing dependency_links to subvision.egg-info/dependency_links.txt
+[0.879s] writing entry points to subvision.egg-info/entry_points.txt
+[0.879s] writing requirements to subvision.egg-info/requires.txt
+[0.879s] writing top-level names to subvision.egg-info/top_level.txt
+[0.881s] reading manifest file 'subvision.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'subvision.egg-info/SOURCES.txt'
+[0.883s] running build_ext
+[0.883s] Creating /home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages/subvision.egg-link (link to .)
+[0.884s] Installing read_controller script to /home/joar/ros2_ws/install/subvision/lib/subvision
+[0.884s] 
+[0.884s] Installed /home/joar/ros2_ws/build/subvision
+[0.885s] running symlink_data
+[0.885s] symbolically linking /home/joar/ros2_ws/build/subvision/resource/subvision -> /home/joar/ros2_ws/install/subvision/share/ament_index/resource_index/packages
+[0.885s] symbolically linking /home/joar/ros2_ws/build/subvision/package.xml -> /home/joar/ros2_ws/install/subvision/share/subvision
+[0.950s] Invoked command in '/home/joar/ros2_ws/build/subvision' returned '0': PYTHONPATH=/home/joar/ros2_ws/build/subvision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/ros2_ws/install/subvision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/joar/ros2_ws/build/subvision/build --no-deps symlink_data --force

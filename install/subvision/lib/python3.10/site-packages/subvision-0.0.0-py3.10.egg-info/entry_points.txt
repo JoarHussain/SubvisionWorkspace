@@ -1,0 +1,3 @@
+[console_scripts]
+read_controller = subvision.read_controller:main
+
