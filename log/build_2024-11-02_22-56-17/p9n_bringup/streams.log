@@ -1,0 +1,36 @@
+[0.493s] Invoking command in '/home/joar/subvision_ws/src/PlayStation-JoyInterface-ROS2-humble/p9n_bringup': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_node:/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_node:/home/joar/subvision_ws/install/p9n_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_node/lib:/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/build/p9n_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/p9n_bringup build --build-base /home/joar/subvision_ws/build/p9n_bringup/build install --record /home/joar/subvision_ws/build/p9n_bringup/install.log --single-version-externally-managed install_data
+[0.673s] running egg_info
+[0.673s] creating ../../../build/p9n_bringup/p9n_bringup.egg-info
+[0.674s] writing ../../../build/p9n_bringup/p9n_bringup.egg-info/PKG-INFO
+[0.674s] writing dependency_links to ../../../build/p9n_bringup/p9n_bringup.egg-info/dependency_links.txt
+[0.674s] writing entry points to ../../../build/p9n_bringup/p9n_bringup.egg-info/entry_points.txt
+[0.674s] writing requirements to ../../../build/p9n_bringup/p9n_bringup.egg-info/requires.txt
+[0.674s] writing top-level names to ../../../build/p9n_bringup/p9n_bringup.egg-info/top_level.txt
+[0.674s] writing manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[0.675s] reading manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[0.676s] writing manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[0.676s] running build
+[0.676s] running build_py
+[0.676s] creating /home/joar/subvision_ws/build/p9n_bringup/build
+[0.676s] creating /home/joar/subvision_ws/build/p9n_bringup/build/lib
+[0.676s] creating /home/joar/subvision_ws/build/p9n_bringup/build/lib/p9n_bringup
+[0.676s] copying p9n_bringup/__init__.py -> /home/joar/subvision_ws/build/p9n_bringup/build/lib/p9n_bringup
+[0.676s] running install
+[0.676s] running install_lib
+[0.677s] creating /home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages/p9n_bringup
+[0.677s] copying /home/joar/subvision_ws/build/p9n_bringup/build/lib/p9n_bringup/__init__.py -> /home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages/p9n_bringup
+[0.677s] byte-compiling /home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages/p9n_bringup/__init__.py to __init__.cpython-310.pyc
+[0.678s] running install_data
+[0.678s] creating /home/joar/subvision_ws/install/p9n_bringup/share/ament_index
+[0.678s] creating /home/joar/subvision_ws/install/p9n_bringup/share/ament_index/resource_index
+[0.678s] creating /home/joar/subvision_ws/install/p9n_bringup/share/ament_index/resource_index/packages
+[0.679s] copying resource/p9n_bringup -> /home/joar/subvision_ws/install/p9n_bringup/share/ament_index/resource_index/packages
+[0.679s] copying package.xml -> /home/joar/subvision_ws/install/p9n_bringup/share/p9n_bringup
+[0.679s] creating /home/joar/subvision_ws/install/p9n_bringup/share/p9n_bringup/launch
+[0.679s] copying launch/teleop_turtlesim.launch.py -> /home/joar/subvision_ws/install/p9n_bringup/share/p9n_bringup/launch
+[0.679s] copying launch/teleop.launch.py -> /home/joar/subvision_ws/install/p9n_bringup/share/p9n_bringup/launch
+[0.679s] running install_egg_info
+[0.680s] Copying ../../../build/p9n_bringup/p9n_bringup.egg-info to /home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages/p9n_bringup-1.1.1-py3.10.egg-info
+[0.680s] running install_scripts
+[0.698s] writing list of installed files to '/home/joar/subvision_ws/build/p9n_bringup/install.log'
+[0.729s] Invoked command in '/home/joar/subvision_ws/src/PlayStation-JoyInterface-ROS2-humble/p9n_bringup' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_node:/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_node:/home/joar/subvision_ws/install/p9n_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_node/lib:/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joar/subvision_ws/build/p9n_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joar/subvision_ws/install/p9n_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/p9n_bringup build --build-base /home/joar/subvision_ws/build/p9n_bringup/build install --record /home/joar/subvision_ws/build/p9n_bringup/install.log --single-version-externally-managed install_data

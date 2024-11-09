@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/joar/subvision_ws/build/p9n_test': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joar/subvision_ws/build/p9n_test -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target p9n_test_node_exec[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target p9n_test_node[0m
+[0.080s] [ 40%] Built target p9n_test_node_exec
+[0.080s] [ 60%] [32mBuilding CXX object CMakeFiles/p9n_test_node.dir/src/p9n_test_node.cpp.o[0m
+[6.936s] [ 80%] [32m[1mLinking CXX shared library libp9n_test_node.so[0m
+[7.446s] [100%] Built target p9n_test_node
+[7.459s] Invoked command in '/home/joar/subvision_ws/build/p9n_test' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joar/subvision_ws/build/p9n_test -- -j16 -l16
+[7.495s] Invoking command in '/home/joar/subvision_ws/build/p9n_test': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joar/subvision_ws/build/p9n_test
+[7.502s] -- Install configuration: ""
+[7.503s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/lib/p9n_test/p9n_test_node_exec
+[7.503s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/include
+[7.503s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/include/p9n_test
+[7.503s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/include/p9n_test/workflow_handler.hpp
+[7.503s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/include/p9n_test/p9n_test_node.hpp
+[7.504s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/library_path.sh
+[7.504s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/library_path.dsv
+[7.504s] -- Installing: /home/joar/subvision_ws/install/p9n_test/lib/libp9n_test_node.so
+[7.511s] -- Set runtime path of "/home/joar/subvision_ws/install/p9n_test/lib/libp9n_test_node.so" to ""
+[7.511s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/launch
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/launch/test.launch.py
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/ament_index/resource_index/package_run_dependencies/p9n_test
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/ament_index/resource_index/parent_prefix_path/p9n_test
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/ament_prefix_path.sh
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/ament_prefix_path.dsv
+[7.512s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/path.sh
+[7.513s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/environment/path.dsv
+[7.513s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/local_setup.bash
+[7.513s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/local_setup.sh
+[7.513s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/local_setup.zsh
+[7.514s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/local_setup.dsv
+[7.514s] -- Installing: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/package.dsv
+[7.514s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/ament_index/resource_index/packages/p9n_test
+[7.514s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/ament_index/resource_index/rclcpp_components/p9n_test
+[7.514s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.515s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.515s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/cmake/ament_cmake_export_libraries-extras.cmake
+[7.515s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/cmake/p9n_testConfig.cmake
+[7.515s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/cmake/p9n_testConfig-version.cmake
+[7.515s] -- Up-to-date: /home/joar/subvision_ws/install/p9n_test/share/p9n_test/package.xml
+[7.515s] Invoked command in '/home/joar/subvision_ws/build/p9n_test' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joar/subvision_ws/build/p9n_test
