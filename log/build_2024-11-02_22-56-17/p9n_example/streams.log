@@ -1,0 +1,85 @@
+[0.012s] Invoking command in '/home/joar/subvision_ws/build/p9n_example': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joar/subvision_ws/src/PlayStation-JoyInterface-ROS2-humble/p9n_example -DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/install/p9n_example
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.652s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.656s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.664s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.754s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.867s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.894s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.944s] -- Looking for pthread.h
+[1.024s] -- Looking for pthread.h - found
+[1.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.112s] -- Found Threads: TRUE  
+[1.189s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.206s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.206s] -- Configured cppcheck include dirs: /home/joar/subvision_ws/src/PlayStation-JoyInterface-ROS2-humble/p9n_example/include
+[1.206s] -- Configured cppcheck exclude dirs and/or files: 
+[1.206s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.207s] -- Added test 'lint_cmake' to check CMake code style
+[1.207s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.208s] -- Added test 'uncrustify' to check C / C++ code style
+[1.208s] -- Configured uncrustify additional arguments: 
+[1.209s] -- Added test 'xmllint' to check XML markup files
+[1.212s] -- Configuring done
+[1.230s] -- Generating done
+[1.232s] -- Build files have been written to: /home/joar/subvision_ws/build/p9n_example
+[1.248s] Invoked command in '/home/joar/subvision_ws/build/p9n_example' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joar/subvision_ws/src/PlayStation-JoyInterface-ROS2-humble/p9n_example -DCMAKE_INSTALL_PREFIX=/home/joar/subvision_ws/install/p9n_example
+[1.250s] Invoking command in '/home/joar/subvision_ws/build/p9n_example': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joar/subvision_ws/build/p9n_example -- -j16 -l16
+[1.305s] [ 50%] [32mBuilding CXX object CMakeFiles/display_node_exec.dir/rclcpp_components/node_main_display_node_exec.cpp.o[0m
+[1.305s] [ 50%] [32mBuilding CXX object CMakeFiles/display_node.dir/src/display_node.cpp.o[0m
+[4.603s] [ 75%] [32m[1mLinking CXX executable display_node_exec[0m
+[4.792s] [ 75%] Built target display_node_exec
+[9.399s] [100%] [32m[1mLinking CXX shared library libdisplay_node.so[0m
+[10.181s] [100%] Built target display_node
+[10.194s] Invoked command in '/home/joar/subvision_ws/build/p9n_example' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joar/subvision_ws/build/p9n_example -- -j16 -l16
+[10.233s] Invoking command in '/home/joar/subvision_ws/build/p9n_example': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joar/subvision_ws/build/p9n_example
+[10.241s] -- Install configuration: ""
+[10.242s] -- Installing: /home/joar/subvision_ws/install/p9n_example/lib/p9n_example/display_node_exec
+[10.242s] -- Set runtime path of "/home/joar/subvision_ws/install/p9n_example/lib/p9n_example/display_node_exec" to ""
+[10.242s] -- Installing: /home/joar/subvision_ws/install/p9n_example/include
+[10.243s] -- Installing: /home/joar/subvision_ws/install/p9n_example/include/p9n_example
+[10.243s] -- Installing: /home/joar/subvision_ws/install/p9n_example/include/p9n_example/display_node.hpp
+[10.243s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/library_path.sh
+[10.243s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/library_path.dsv
+[10.243s] -- Installing: /home/joar/subvision_ws/install/p9n_example/lib/libdisplay_node.so
+[10.250s] -- Set runtime path of "/home/joar/subvision_ws/install/p9n_example/lib/libdisplay_node.so" to ""
+[10.250s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/launch
+[10.250s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/launch/display.launch.py
+[10.250s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/ament_index/resource_index/package_run_dependencies/p9n_example
+[10.250s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/ament_index/resource_index/parent_prefix_path/p9n_example
+[10.250s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/ament_prefix_path.sh
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/ament_prefix_path.dsv
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/path.sh
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/environment/path.dsv
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/local_setup.bash
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/local_setup.sh
+[10.251s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/local_setup.zsh
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/local_setup.dsv
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/package.dsv
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/ament_index/resource_index/packages/p9n_example
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/ament_index/resource_index/rclcpp_components/p9n_example
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.252s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.253s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/cmake/ament_cmake_export_libraries-extras.cmake
+[10.253s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/cmake/p9n_exampleConfig.cmake
+[10.253s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/cmake/p9n_exampleConfig-version.cmake
+[10.253s] -- Installing: /home/joar/subvision_ws/install/p9n_example/share/p9n_example/package.xml
+[10.259s] Invoked command in '/home/joar/subvision_ws/build/p9n_example' returned '0': AMENT_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joar/subvision_ws/install/p9n_interface:/home/joar/subvision_ws/install/ds4_driver:/home/joar/subvision_ws/install/ds4_driver_msgs:/home/joar/subvision_ws/install/subvision:/opt/ros/humble LD_LIBRARY_PATH=/home/joar/subvision_ws/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joar/subvision_ws/build/p9n_example
